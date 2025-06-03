@@ -12,7 +12,7 @@ This script provides:
 ## Table of Contents
 1. [Game Rules](#game-rules)
 2. [Quick Start](#quick-start)
-3. [How the AI works](#How the Heuristic Works — heuristic_game_value())
+3. [How the Heuristic Works](#how-the-heuristic-works)
 
 ---
 
@@ -28,7 +28,7 @@ Each player has **four pieces** (Black `b` and Red `r`).
 
 ---
 
-### How the Heuristic Works — heuristic_game_value()
+### How the Heuristic Works
 
 The AI evaluates every **non-terminal** board position and returns a value in **(-1 … +1)**:
 - **+1** → a near-certain win for the AI (`self.my_piece`)
